@@ -1,0 +1,28 @@
+{
+    "1": {
+        "name": "first test",
+        "descr": "test your self",
+        "questions": {
+            "1": {
+                "Q": "Who re u?",
+                "type": "point",
+                "vars": ["gym master", "master daddy", "Billy 🥲"],
+                "mark": 1,
+                "answer": 1
+            },
+            "2": {
+                "Q": "U're daddy?",
+                "type": "text",
+                "mark": 1,
+                "answer": "yes"
+            },
+            "3": {
+                "Q": "U re flus?",
+                "type": "point",
+                "vars": ["yes", "no"],
+                "mark": 1,
+                "answer": 1
+            }
+        }
+    }
+}
