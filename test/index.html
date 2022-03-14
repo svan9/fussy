@@ -11,15 +11,17 @@
 </head>
 
 <body>
-    <script>
-        // var link = document.createElement("link");
-        // document.head.appendChild(link);
-        // link.rel = "stylesheet";
-        // link.href = `${window.location.href}`
-        console.log(window.location.pathname)
-    </script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js "></script>
     <script src="../js/jquery.cookie.js"></script>
+    <script>
+        var main = $.cookie("let");
+        $.removeCookie("let");
+        var link = document.createElement("link");
+        document.head.appendChild(link);
+        link.rel = "stylesheet";
+        link.href = `${window.location.protocol + window.location.host +"/"+ main + "style/main.css"}`
+    </script>
+
     <script src="../js/get.js"></script>
     <script src="../js/temp.js"></script>
     <script src="../js/input.js"></script>
